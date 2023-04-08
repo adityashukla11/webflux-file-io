@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  netty:
+    initial-buffer-size: 10MB
+    max-chunk-size: 10MB
+    connection-timeout: 300000
+
+logging:
+  level:
+    org.springframework.web.multipart: TRACE
+
+#  logging.level.org.springframework.web.reactive.function.client.ExchangeFunctions: TRACE
+#  logging.level.reactor.netty.http.client.HttpClient: DEBUG
